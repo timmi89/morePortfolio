@@ -33,7 +33,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  // align-items: center;
   height: 800px;
   width: 100%;
 }
@@ -41,7 +41,7 @@ a {
 .logoAndLinks {
   display: flex;
   justify-content: space-around;
-  // flex-wrap: wrap;
+  flex-wrap: wrap;
   // flex-direction: column;
 }
 
@@ -72,6 +72,13 @@ a {
   }
 }
 
+.buttonHolder{
+  display: flex;
+  height: 65px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
 .button {
   display: flex;
   flex-direction: column;
@@ -97,8 +104,9 @@ a {
 .barLinks {
  display: flex;
  font-size: 20px;
+ padding-right: 3px;
  // border: 2px solid green;
-  width: 40%;
+  width: 60%;
  justify-content: space-between;
  }
 
@@ -109,7 +117,7 @@ a {
   flex-direction: column;
 }
 // row 1
-.row1 {
+.row1, .holder {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -219,4 +227,17 @@ a {
   &:hover {
   transform: scale(1.5);
   }
+}
+@media (max-width: 950px){
+  .holder {
+    flex: 1 33%;
+  }
+}
+
+@media (max-width: 650px){
+ .row1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
 }

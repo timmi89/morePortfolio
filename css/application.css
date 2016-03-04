@@ -29,13 +29,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   height: 800px;
   width: 100%; }
 
 .logoAndLinks {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .links {
   width: 500px;
@@ -57,6 +57,13 @@ a {
     font-size: 25px; }
   .title h1 {
     font-size: 60px; }
+
+.buttonHolder {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center; }
 
 .button {
   display: flex;
@@ -80,7 +87,8 @@ a {
 .barLinks {
   display: flex;
   font-size: 20px;
-  width: 40%;
+  padding-right: 3px;
+  width: 60%;
   justify-content: space-between; }
 
 .galleryWrapper {
@@ -88,7 +96,7 @@ a {
   display: flex;
   flex-direction: column; }
 
-.row1 {
+.row1, .holder {
   width: 100%;
   display: flex;
   flex-direction: row; }
@@ -189,5 +197,14 @@ a {
   transition: transform 500ms ease-in-out; }
   .umbrella:hover {
     transform: scale(1.5); }
+
+@media (max-width: 950px) {
+  .holder {
+    flex: 1 33%; } }
+@media (max-width: 650px) {
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
 
 /*# sourceMappingURL=application.css.map */

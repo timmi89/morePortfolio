@@ -6,7 +6,16 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  color: white; }
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 250ms ease-in-out; }
+  a:hover {
+    text-decoration: underline;
+    color: teal; }
 
 .siteWrapper {
   display: flex;
@@ -94,5 +103,59 @@ body {
   background-size: cover;
   background-position: center;
   flex: 1; }
+
+.row2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+
+.rectangle1 {
+  display: flex;
+  background-image: url("../img/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 300px; }
+
+.rectangle2 {
+  display: flex;
+  background-image: url("../img/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1; }
+
+.rectangle3 {
+  display: flex;
+  background-image: url("../img/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 2; }
+
+.umbrella {
+  display: flex;
+  flex: 2 75%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  height: 50px;
+  margin-top: 10%; }
+
+.words {
+  display: flex;
+  border: 2px solid purple;
+  margin-right: 25%;
+  padding: 20px;
+  width: 100%; }
+
+.umbrella {
+  border: 2px solid red;
+  transition: transform 500ms ease-in-out; }
+  .umbrella:hover {
+    transform: scale(3); }
 
 /*# sourceMappingURL=application.css.map */

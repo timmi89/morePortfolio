@@ -9,7 +9,7 @@
 body {
   margin: 0;
   color: white;
-  background-color: #EBF0EC;
+  // background-color: #FEF1E2;
 }
 a {
   color: white;
@@ -27,7 +27,7 @@ a {
 }
 
 .hero {
-  background-image: url("../img/backgroundImage.jpg");
+  background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,6 +50,7 @@ a {
   width: 500px;
   // border: 2px solid red;
   display: flex;
+  padding-top: 25px;
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
@@ -72,7 +73,11 @@ a {
     font-size: 60px;
   }
 }
-
+.whiteBar{
+  width: 20%;
+  height: 10px;
+  background-color: white;
+}
 .buttonHolder{
   display: flex;
   height: 65px;
@@ -125,7 +130,7 @@ a {
 }
 .box1 {
   display:flex;
-  background-image: url("../img/backgroundImage.jpg");
+  background-image: url("../img/trees.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -138,7 +143,7 @@ a {
 
 .box2 {
   display:flex;
-  background-image: url("../img/backgroundImage.jpg");
+  background-image: url("../img/building.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -149,7 +154,7 @@ a {
 }
 .box3 {
  display:flex;
- background-image: url("../img/backgroundImage.jpg");
+ background-image: url("../img/books.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -166,7 +171,7 @@ a {
   }
   .rectangle1 {
    display:flex;
-   background-image: url("../img/backgroundImage.jpg");
+   background-image: url("../img/red.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -179,7 +184,7 @@ a {
 
   .rectangle2 {
     display:flex;
-    background-image: url("../img/backgroundImage.jpg");
+    background-image: url("../img/sasquatch.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +196,7 @@ a {
   }
   .rectangle3 {
     display:flex;
-    background-image: url("../img/backgroundImage.jpg");
+    background-image: url("../img/fishing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -228,6 +233,11 @@ a {
   &:hover {
   transform: scale(1.5);
   }
+}
+.moreBar{
+  height: 80px;
+  width: 100%;
+  background-color: gray;
 }
 .writtenContent{
   display: flex;

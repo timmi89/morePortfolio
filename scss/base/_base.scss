@@ -9,6 +9,7 @@
 body {
   margin: 0;
   color: white;
+  background-color: #EBF0EC;
 }
 a {
   color: white;
@@ -228,6 +229,34 @@ a {
   transform: scale(1.5);
   }
 }
+.writtenContent{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.write {
+  display: flex;
+  width: 50%;
+  padding: 50px;
+  flex-direction: column;
+
+}
+.writtenHeader {
+   color: gray;
+  flex:1;
+}
+.writtenBody{
+  // border: 1px solid red;
+  color: gray;
+  flex: 1;
+}
+.writtenPic{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
 @media (max-width: 950px){
   .holder {
     flex: 1 33%;
@@ -239,5 +268,28 @@ a {
    display: flex;
    flex-direction: column;
    justify-content: center;
+ }
+ .row2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .writtenContent{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+ .write {
+   display: flex;
+   flex-direction: column;
+   flex: 2;
+   width: 100%;
+  //  flex-wrap: wrap;
+ }
+ .writtenPic{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 100%;
  }
 }

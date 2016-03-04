@@ -29,6 +29,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   height: 800px;
   width: 100%; }
 
@@ -40,7 +41,8 @@ a {
   width: 500px;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-size: 20px; }
 
 .logo img {
   width: 75px;
@@ -51,23 +53,35 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .title h4 {
+    font-size: 25px; }
+  .title h1 {
+    font-size: 60px; }
 
 .button {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 115px;
+  height: 60px;
+  background-color: mistyrose;
+  border-radius: 5px; }
 
 .bar {
   display: flex;
   height: 100px;
   background-color: grey;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center; }
 
-.barlinks span {
+.barLinks {
   display: flex;
-  border: 2px solid red; }
+  font-size: 20px;
+  width: 40%;
+  justify-content: space-between; }
 
 .galleryWrapper {
   width: 100%;
@@ -86,6 +100,9 @@ a {
   background-size: cover;
   background-position: center;
   flex: 2;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 300px; }
 
 .box2 {
@@ -94,7 +111,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  flex: 1; }
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center; }
 
 .box3 {
   display: flex;
@@ -102,7 +122,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  flex: 1; }
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .row2 {
   width: 100%;
@@ -116,6 +139,7 @@ a {
   background-size: cover;
   background-position: center;
   flex: 1;
+  justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
   height: 300px; }
@@ -126,7 +150,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  flex: 1; }
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 300px; }
 
 .rectangle3 {
   display: flex;
@@ -134,28 +162,32 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  flex: 2; }
+  flex: 2;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 300px; }
 
 .umbrella {
   display: flex;
-  flex: 2 75%;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
-  height: 50px;
-  margin-top: 10%; }
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-top: 10%;
+  background-color: rgba(129, 137, 148, 0.8); }
 
 .words {
   display: flex;
-  border: 2px solid purple;
   margin-right: 25%;
   padding: 20px;
-  width: 100%; }
+  width: 100%;
+  font-size: 25px; }
 
 .umbrella {
-  border: 2px solid red;
   transition: transform 500ms ease-in-out; }
   .umbrella:hover {
-    transform: scale(3); }
+    transform: scale(1.5); }
 
 /*# sourceMappingURL=application.css.map */

@@ -12,7 +12,7 @@ body {
   // background-color: #FEF1E2;
 }
 a {
-  color: white;
+  color: teal;
   text-decoration: none;
   transition: all 250ms ease-in-out;
   &:hover {
@@ -27,15 +27,16 @@ a {
 }
 
 .hero {
-  background-image: url("../img/map.jpg");
+  background-image: url("../img/try3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   // align-items: center;
-  height: 800px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -50,7 +51,8 @@ a {
   width: 500px;
   // border: 2px solid red;
   display: flex;
-  padding-top: 25px;
+  margin-top: -20vh;
+  // padding-top: 25px;
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
@@ -66,11 +68,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  color: teal;
+
+
   h4{
     font-size: 25px;
   }
   h1{
     font-size: 60px;
+    background-color: black;
+    width: 450px;
+    text-align: center;
   }
 }
 .whiteBar{
@@ -111,7 +120,7 @@ a {
  display: flex;
  font-size: 20px;
  padding-right: 3px;
- // border: 2px solid green;
+ border: 2px solid green;
   width: 60%;
  justify-content: space-between;
  }

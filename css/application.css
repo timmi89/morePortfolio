@@ -10,7 +10,7 @@ body {
   color: white; }
 
 a {
-  color: white;
+  color: teal;
   text-decoration: none;
   transition: all 250ms ease-in-out; }
   a:hover {
@@ -22,14 +22,14 @@ a {
   flex-wrap: wrap; }
 
 .hero {
-  background-image: url("../img/map.jpg");
+  background-image: url("../img/try3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 800px;
+  height: 100vh;
   width: 100%; }
 
 .logoAndLinks {
@@ -40,7 +40,7 @@ a {
 .links {
   width: 500px;
   display: flex;
-  padding-top: 25px;
+  margin-top: -20vh;
   align-items: center;
   justify-content: space-between;
   font-size: 20px; }
@@ -53,11 +53,15 @@ a {
 .title {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  color: teal; }
   .title h4 {
     font-size: 25px; }
   .title h1 {
-    font-size: 60px; }
+    font-size: 60px;
+    background-color: black;
+    width: 450px;
+    text-align: center; }
 
 .whiteBar {
   width: 20%;
@@ -94,6 +98,7 @@ a {
   display: flex;
   font-size: 20px;
   padding-right: 3px;
+  border: 2px solid green;
   width: 60%;
   justify-content: space-between; }
 

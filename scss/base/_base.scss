@@ -12,7 +12,7 @@ body {
   // background-color: #FEF1E2;
 }
 a {
-  color: teal;
+  color: white;
   text-decoration: none;
   transition: all 250ms ease-in-out;
   &:hover {
@@ -27,7 +27,7 @@ a {
 }
 
 .hero {
-  background-image: url("../img/try3.png");
+  background-image: url("../img/try4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -68,8 +68,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  color: teal;
+  margin-top: -20vh;
 
 
   h4{
@@ -82,11 +81,11 @@ a {
     text-align: center;
   }
 }
-.whiteBar{
-  width: 20%;
-  height: 10px;
-  background-color: white;
-}
+// .whiteBar{
+//   width: 20%;
+//   height: 10px;
+//   background-color: white;
+// }
 .buttonHolder{
   display: flex;
   height: 65px;
@@ -139,7 +138,7 @@ a {
 }
 .box1 {
   display:flex;
-  background-image: url("../img/trees.jpeg");
+  background-image: url("../img/qa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -152,7 +151,8 @@ a {
 
 .box2 {
   display:flex;
-  background-image: url("../img/building.jpg");
+  // background-image: url("../img/swirl.png");
+  background-color: #F08080;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -163,7 +163,8 @@ a {
 }
 .box3 {
  display:flex;
- background-image: url("../img/books.jpg");
+ background-image: url("../img/swirl.png");
+
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -180,7 +181,8 @@ a {
   }
   .rectangle1 {
    display:flex;
-   background-image: url("../img/red.jpg");
+
+   background-image: url("../img/lady.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -193,7 +195,8 @@ a {
 
   .rectangle2 {
     display:flex;
-    background-image: url("../img/sasquatch.jpg");
+     background-color: #088DA5;
+    // background-image: url("../img/lady.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -205,7 +208,7 @@ a {
   }
   .rectangle3 {
     display:flex;
-    background-image: url("../img/fishing.jpg");
+    background-image: url("../img/2dudes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
